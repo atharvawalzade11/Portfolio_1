@@ -2,6 +2,9 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.jpg";
 import project4 from "../assets/projects/project-4.jpg";
+import sch from "../assets/education/DRSCH.jpeg";
+import avcoe from "../assets/education/AVCOE.png";
+import pccoe from "../assets/education/PCCOE.jpg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 5 years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -74,3 +77,36 @@ export const CONTACT = {
   phoneNo: "+91 8767311272 ",
   email: "atharvawalzade11@gmail.com",
 };
+
+
+export const EDUCATION = [
+  {
+    title: "School",
+    institute_name: "DR.B.G. Dere English Medium School & Jr. College", // School name
+    duration: "2007-2020", // Duration
+    image:sch,
+    // focus: ["Science", "Mathematics"], // Optional: Subjects or focus areas
+    achievements: ["C in Intermediate Exam"], // Optional: Achievements
+    website: "https://school.centriotech.com/", // Link to school website
+  },
+  {
+    title: "Diploma",
+    institute_name: "Amrutvahini Polytechnic", // Diploma institution name
+    duration: "2020-2023", // Duration
+    image:avcoe,
+
+    major: "Computer Engineering", // Major or specialization
+    achievements: ["Performer of the Year", "Won 1st Prize in Tech Event @Kolhapur "], // Optional: Achievements
+    website: "https://www.amrutpoly.co.in/", // Link to diploma institution website
+  },
+  {
+    title: "Degree",
+    institute_name: "Pimpri Chinchwad College of Engineering", // University name
+    duration: "2023-2026", // Duration
+    image:pccoe,
+
+    major: "Computer Technology", // Major or field of study
+    // achievements: ["Dean’s List for Academic Excellence", "Member of the Coding Club"], // Optional: Achievements
+    website: "https://www.pccoepune.com/", // Link to university website
+  },
+];

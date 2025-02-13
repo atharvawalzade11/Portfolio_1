@@ -17,7 +17,8 @@ function Technologies() {
   return (
     <div className="border-b border-neutral-800 pb-24">
       <h2 className="my-20 font-semibold text-center text-4xl text-amber-50">
-        Technologies
+      Expertise
+
       </h2>
 
       {/* Tech Icons Container */}
